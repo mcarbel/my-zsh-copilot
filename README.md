@@ -20,10 +20,10 @@ Please make sure you have the following dependencies installed:
 1. Clone `zsh-copilot` into `$ZSH_CUSTOM/plugins` (by default ~/.config/oh-my-zsh/custom/plugins)
 
 ```sh
-git clone https://github.com/mcarbel/my-zsh-copilot ${ZSH_CUSTOM:-~/.config/oh-my-zsh/custom}/plugins/zsh-copilot
+git clone https://github.com/mcarbel/my-zsh-copilot ${ZSH_CUSTOM:-~/.config/oh-my-zsh/custom}/plugins/my-zsh-copilot
 ```
 
-2. Add `zsh-copilot` to the plugins array in your `.zshrc` file:
+2. Add `my-zsh-copilot` to the plugins array in your `.zshrc` file:
 
 ```bash
 plugins=( 
@@ -43,7 +43,13 @@ echo "source ~/.config/zsh-copilot/my-zsh-copilot.plugin.zsh" >> ~/.zshrc
 
 You need to have an API key for either OpenAI or Anthropic to use this plugin. Expose this via the appropriate environment variable:
 
-For OpenAI (default):
+For Ollamap (default):
+```
+export ZSH_COPILOT_OLLAMA_URL=<URL for Ollama>
+export ZSH_COPILOT_OLLAMA_MODEL=<Model for Ollama>
+```
+
+For OpenAI:
 ```sh
 export OPENAI_API_KEY=<your-openai-api-key>
 ```
