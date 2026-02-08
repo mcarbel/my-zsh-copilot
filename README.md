@@ -35,8 +35,8 @@ plugins=(
 ### Manual Installation
 
 ```sh
-git clone https://github.com/mcarbel/my-zsh-copilot ~/.config/zsh-copilot
-echo "source ~/.config/zsh-copilot/zsh-copilot.plugin.zsh" >> ~/.zshrc
+git clone https://github.com/mcarbel/my-zsh-copilot ~/.config/my-zsh-copilot
+echo "source ~/.config/zsh-copilot/my-zsh-copilot.plugin.zsh" >> ~/.zshrc
 ```
 
 ## Configuration
