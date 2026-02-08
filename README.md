@@ -37,6 +37,7 @@ plugins=(
 ```sh
 git clone https://github.com/mcarbel/my-zsh-copilot ~/.config/my-zsh-copilot
 echo "source ~/.config/my-zsh-copilot/my-zsh-copilot.plugin.zsh" >> ~/.zshrc
+echo "source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 ```
 
 ## Configuration
@@ -44,9 +45,9 @@ echo "source ~/.config/my-zsh-copilot/my-zsh-copilot.plugin.zsh" >> ~/.zshrc
 You need to have an API key for either OpenAI or Anthropic to use this plugin. Expose this via the appropriate environment variable:
 
 For Ollamap (default):
-```
-export ZSH_COPILOT_OLLAMA_URL=<URL for Ollama>
-export ZSH_COPILOT_OLLAMA_MODEL=<Model for Ollama>
+```sh
+export ZSH_COPILOT_OLLAMA_URL=<URL-for-Ollama>
+export ZSH_COPILOT_OLLAMA_MODEL=<Model-for-Ollama>
 ```
 
 For OpenAI:
