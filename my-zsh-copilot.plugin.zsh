@@ -236,7 +236,7 @@ function _suggest_ai() {
     fi
 }
 
-function zsh-copilot() {
+function my-zsh-copilot() {
     echo "ZSH Copilot is now active. Press $ZSH_COPILOT_KEY to get suggestions."
     echo ""
     echo "Configurations:"
