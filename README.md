@@ -36,7 +36,7 @@ plugins=(
 
 ```sh
 git clone https://github.com/mcarbel/my-zsh-copilot ~/.config/my-zsh-copilot
-echo "source ~/.config/zsh-copilot/my-zsh-copilot.plugin.zsh" >> ~/.zshrc
+echo "source ~/.config/my-zsh-copilot/my-zsh-copilot.plugin.zsh" >> ~/.zshrc
 ```
 
 ## Configuration
